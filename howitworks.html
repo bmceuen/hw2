@@ -5,20 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How it Works</title>
     <link rel="shortcut icon" type="image/png" href="OnBrand_SocialIcon2.png"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <a href="index.html"> <img src="OnBrand2a.png" height="200" width="400"></a>
-    <a href="howitworks.html">How it Works</a> &nbsp;&nbsp;&nbsp;
-    <a href="about.html">About Us</a> &nbsp;&nbsp;&nbsp;
-    <a href="sign-up.html">Sign-Up!</a>
-    <br>
-    <br>
-    <h2>How it Works:</h2>
-    <ol>
-        <li>Enter some of your favorite brands</li>
-        <li>Tell us your preferred fit, size, and style</li>
-        <li>We'll populate a closet for you to shop from</li>
-        <li>Based on how you shop and interact with your closet, we'll constantly find you new products and brands!</li>
-    </ol>
+    <div class="bg-blue-900">
+        <a href="index.html"> <img src="OnBrand2b.png" class="mx-auto" height="200" width="400"></a>
+    </div>
+
+    <div class="bg-yellow-800 text-center uppercase text-white text-xl">
+        <a href="howitworks.html" class="underline mx-4 text-xl">How it Works</a> 
+        <a href="about.html" class="underline mx-4 text-xl">About Us</a> 
+        <a href="sign-up.html" class="underline mx-4 text-xl">Sign-Up!</a>
+    </div>
+
+    <div class="bg-gray-300">
+
+        <h2 class="text-center text-3xl text-black underline pt-4">How it Works:</h2>
+        <ol class="text-center pb-12 pt-4">
+            <li>1. Enter some of your favorite brands</li>
+            <li>2. Tell us your preferred fit, size, and style</li>
+            <li>3. We'll populate a closet for you to shop from</li>
+            <li>4. Based on how you shop and interact with your closet, we'll constantly find you new products and brands!</li>
+        </ol>
+
+        <img src="grabbing clothes.png" class="mx-auto pb-12">
+  
+    </div>
+
+    <div class="bg-blue-900"> 
+        <div class="flex">
+            <div class="mx-96 w-48">
+                <p class="uppercase text-white py-4 text-2xl text-center">Contact</p>
+                <a href="mailto:welcome@onbrand.shop" class="text-white mx-2 underline">welcome@onbrand.shop</a>
+
+            <div class="flex py-2">
+                <div class="mx-auto" a href="https://wwww.facebook.com"> <img src="facebook.png"></a></div>
+                <div class="mx-auto" a href="https://wwww.twitter.com"> <img src="twitter.png"></a></div>
+                <div class="mx-auto" a href="https://wwww.instagram.com"> <img src="instagram.png"></a></div>
+            </div>
+
+            </div>
+
+            <div>
+                <div class="mx-56  py-4">
+                    <form netlify>
+                        <p class="text-white">Do you want to sign-up for our newletter? Enter your email below!</p>
+                      
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" class="px-4">
+                      
+                        <button class="ml-8 border-2 rounded text-white hover:bg-white hover:text-black">Sign-Up!</button>
+                      </form>
+                          
+    
+               
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
